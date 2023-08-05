@@ -2,12 +2,8 @@
 title = "About Me"
 description = "Software Engineer Intern"
 date = 2020-05-02
-draft = true
-slug = "about"
 template = "about.html"
 +++
-
-# About Me <br> <br>
 
 Hello there! I'm Giridharan, a passionate computer science major with a strong affinity for coding and exploring the exciting world of new technologies. As a full-stack developer, I revel in the art of crafting seamless digital experiences, and my heart belongs to JavaScript, while I'm eagerly diving into the world of TypeScript.
 

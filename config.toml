@@ -2,7 +2,7 @@ base_url = "https://giridharan.me"
 
 default_language = "en"
 title = "Giridharan Mohan"
-description = "Hello, I'm Giridharan, a dedicated computer science major with a profound passion for coding and an insatiable curiosity for exploring cutting-edge technologies. As a full-stack developer, I find immense joy in crafting innovative solutions that bridge the gap between imagination and reality. JavaScript is my true love, and I'm currently on an exciting journey of mastering TypeScript to further elevate my skills."
+description = "Hello, I'm Giridharan, a dedicated computer science major with a profound passion for coding and an insatiable curiosity for exploring cutting-edge technologies. As a full-stack developer, I find immense joy in crafting innovative solutions that bridge the gap between imagination and reality."
 
 highlight_code = true
 compile_sass = true
@@ -28,16 +28,12 @@ zola386_menu = [
   {path="about", name="About"},
 ]
 
-### THIRD PARTY
-# google_analytics = "UA-012345-67"
-# disqus = "disqus-user"
-
 ### SOCIAL MEDIA
 ### image = "https://raw.githubusercontent.com/lopes/zola.386/master/screenshot.png"
 twitter_user = "giridharanrock"
 linkedin_user = "giridharanmohan"
 github_user = "girirock"
-# gitlab_user = ""
+gitlab_user = "hyper11rock"
 
 ### I18N WORDS
 label_skills = "skills"

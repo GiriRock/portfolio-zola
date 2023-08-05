@@ -5,18 +5,7 @@
   <dl class="dl-horizontal">
     <dt>{{ config.extra.label_date }}</dt>
     <dd>{{ page.date | date(format="%Y-%m-%d") }}</dd>
-    
-    <dt>{{ config.extra.label_author }}</dt>
-    <dd>
-      {% if page.extra.author %}
-        {{page.extra.author}}
-      {% else %}
-        {{config.extra.author}}
-      {% endif %}
-    </dd>
-
     {% if page.taxonomies.categories %}
-    <dt>{{ config.extra.label_taxonomy }}</dt>
     <dd>
       <a href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0]) }}">
         {{ page.taxonomies.categories[0] }}
@@ -30,9 +19,6 @@
     </a>
     </dd>
     {% endif %}
-
-    <dt>{{ config.extra.label_reading }}</dt>
-    <dd>{{ page.reading_time }}'</dd>
   </dl>
   <p>
     <a href="{{ page.permalink }}" class="btn btn-info" role="button">{{ config.extra.label_read_more }}</a>

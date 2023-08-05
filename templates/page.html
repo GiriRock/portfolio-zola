@@ -35,16 +35,7 @@
 
 {% block meta %}
 <p class="text-right">
-  <span class="label label-success">
-    &becaus;
-    {% if page.extra.author %}
-      {{ page.extra.author }}
-    {% else %}
-      {{ config.extra.author }}
-    {% endif %}
-  </span>
-  <span class="label label-success">&there4; {{ page.date }}</span>
-  <span class="label label-success">&infin; {{ page.reading_time }}'</span>
+  <span class="label label-success">{{page.extra.fromDate}} to {{page.extra.toDate}}</span>
 </p>
 {% endblock meta %}
 

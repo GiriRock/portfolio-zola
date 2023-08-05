@@ -1,9 +1,9 @@
 +++
 title = "RapidData Technologies"
-description = "Software Engineer Intern"
-date = 2020-11-01
+description = "Software Engineer"
+date = 2021-06-02
 draft = false
-slug = "softwareEngineerIntern"
+slug = "softwareEngineer"
 
 [taxonomies]
 categories = ["Work Experience"]
@@ -11,8 +11,8 @@ skills = ["Mendix", "PowerBi", "Kubernetes", "HTML", "CSS"]
 
 [extra]
 comments = true
-fromDate= "SEP-2020"
-toDate="JUN-2021"
+fromDate= "JUN-2021"
+toDate="Current"
 +++
 
 

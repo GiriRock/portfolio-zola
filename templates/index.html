@@ -51,16 +51,6 @@
   <meta name="twitter:creator" content="{{ config.extra.twitter_user }}">
   <meta name="twitter:image:alt" content="{% block ogaltimg %}{{ config.title }}{% endblock ogaltimg %}">
   {% endif %}
-
-  {% if config.extra.google_analytics %}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{config.extra.google_analytics}}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', '{{config.extra.google_analytics}}');
-  </script>
-  {% endif %}
 </head>
 
 <body data-spy="scroll" data-target=".bs-docs-sidebar">
@@ -121,7 +111,7 @@
         <ul class="nav nav-list bs-docs-sidenav">
           {% set categories = get_taxonomy(kind="categories") %}
           {% for cat in categories.items %}
-            <li><a href="{{ config.base_url }}/categories/{{ cat.name }}">{{ cat.name }}</a></li>
+            <li><a href="{{ cat.permalink }}">{{ cat.name }}</a></li>
           {% endfor %}
         </ul>
         <p></p>
@@ -129,7 +119,7 @@
         <ul class="nav nav-list bs-docs-sidenav">        
           {% set skills = get_taxonomy(kind="skills") %}
           {% for skill in skills.items %}
-            <li><a href="{{ config.base_url }}/skills/{{ skill.name }}">{{ skill.name }}</a></li>
+            <li><a href="{{skill.permalink}}">{{ skill.name }}</a></li>
           {% endfor %}    
         </ul>
       {% endblock sidebar %}
@@ -156,7 +146,7 @@
         <a href="https://github.com/{{ config.extra.github_user }}" target="_blank">GitHub</a>
         {% endif %}
         {% if config.extra.gitlab_user %}
-        <a href="https://gitlab.com/{{ config.extra.gitlab_user }}" target="_blank">GitLab</a>
+        <a href="https://youtube.com/@{{ config.extra.gitlab_user }}" target="_blank">Youtube</a>
         {% endif %}
     </p>
   </footer>

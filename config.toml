@@ -1,4 +1,4 @@
-base_url = "https://zola386.netlify.app"
+base_url = "https://giridharan.me"
 # theme = "zola.386"
 
 default_language = "en"
@@ -34,7 +34,7 @@ zola386_menu = [
 # disqus = "disqus-user"
 
 ### SOCIAL MEDIA
-image = "https://raw.githubusercontent.com/lopes/zola.386/master/screenshot.png"
+### image = "https://raw.githubusercontent.com/lopes/zola.386/master/screenshot.png"
 twitter_user = "giridharanrock"
 linkedin_user = "giridharanmohan"
 github_user = "girirock"

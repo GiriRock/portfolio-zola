@@ -1,5 +1,4 @@
 base_url = "https://giridharan.me"
-# theme = "zola.386"
 
 default_language = "en"
 title = "Giridharan Mohan"

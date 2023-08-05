@@ -2,9 +2,9 @@
 title = "About Me"
 description = "Software Engineer Intern"
 date = 2020-05-02
-draft = false
+draft = true
 slug = "about"
-
+template = "about.html"
 +++
 
 # About Me <br> <br>

@@ -30,7 +30,15 @@
 
 
 {% macro post_min(page) %}
-<a href="{{ page.permalink }}">{{ page.date }} | {{ page.title }}</a>
+<div>
+  <h1><a href="{{ page.permalink }}">{{ page.title }}</a></h1>
+  <p>{{ page.description }}</p>
+  <p>
+    <a href="{{ page.permalink }}" class="btn btn-info" role="button">{{ config.extra.label_read_more }}</a>
+  </p>
+  <hr class="soften">
+  <p></p>
+</div>
 {% endmacro post_min %}
 
 

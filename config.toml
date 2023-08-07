@@ -23,10 +23,10 @@ keywords = "Software Developer, Mendix Developer, Fullstack Developer,JavaScript
 theme_color = "#000084"
 zola386_menu = [
   {path="", name="Home"},
+  {path="projects", name="Projects"},
   {path="categories", name="Categories"},
   {path="skills", name="Skills"},
-  {path="about", name="About"},
-  {path="projects", name="Projects"}
+  {path="about", name="About"}
 ]
 
 ### SOCIAL MEDIA

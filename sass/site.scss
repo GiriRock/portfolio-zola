@@ -36,3 +36,11 @@ h2{
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+
+img{
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;
+}

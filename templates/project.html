@@ -76,10 +76,23 @@
 
   <div class="container navmargin">
     <header class="jumbotron subhead" id="overview">
-      {% block breadcrumb %}{% endblock breadcrumb %}
+      {% block breadcrumb %}
+        <p class="lead">
+          <span>&gt;&gt;</span>
+          <a href="{{ config.base_url }}">Home</a>
+          {% if page.taxonomies %}
+            <span class="divider">/</span>
+            {% if page.taxonomies.categories %}
+            <a class="category" href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0]) }}">{{ page.taxonomies.categories[0] }}</a>
+            {% endif %}
+            <span class="divider">/</span>
+            <a class="category" href="{{page.permalink}}">{{ page.title }}</a>
+          {% endif %}
+        </p>
+      {% endblock breadcrumb %}
       {% block header %}
       <div class="page-header">
-        <h1>Projects</h1>
+        <h1>Projects / {{page.title}}</h1>
       </div>
       {% endblock header %}
       {% block meta %}{% endblock meta %}
@@ -89,6 +102,8 @@
 
       <div class="span9 bs-docs-sidebar">
       {% block main %}
+        <h1>{{ page.title }}</h1>
+        <br>
         {{ page.content | safe }}
       {% endblock main %}
       </div> <!-- span9 -->

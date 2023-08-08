@@ -1,7 +1,7 @@
 +++
 title = "Weather App"
 description = "Weather App using NextJS and tailwind"
-date = 2021-06-04
+date = 2021-06-03
 
 [taxonomies]
 categories = ["Projects"]

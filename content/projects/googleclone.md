@@ -19,7 +19,7 @@ Source Code:
 <a href="https://github.com/GiriRock/GoogleClone" target="_blank">Github Repo</a>
 
 
- ![Google clone landing](/images/googleclonelanding.png) 
+ ![Google clone landing](/images/google/landing.png) 
  <br>
  <br>
- ![Google search result](/images/googlesearchresult.png)
+ ![Google search result](/images/google/result.png)

@@ -37,7 +37,7 @@ When you're ready to deploy your website, generate static files using the zola b
 
 The generated files will reside in the public directory. You can then host these files on any web server that serves static content.
 
-Author
+## Author
 This website is maintained by Giridharan.
 
 - Website: https://giridharan.me

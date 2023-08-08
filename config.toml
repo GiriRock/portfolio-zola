@@ -27,7 +27,7 @@ zola386_menu = [
   {path="categories", name="Categories"},
   {path="skills", name="Skills"},
   {path="about", name="About"},
-  {path="files/resume.pdf", name="Resume"}
+  {path="files/_resume.pdf", name="Resume"}
 ]
 
 ### SOCIAL MEDIA

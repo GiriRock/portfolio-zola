@@ -26,7 +26,7 @@ Source Code:
 <br>
 <a href="https://github.com/GiriRock/weather-app" target="_blank">Github Repo</a>
 
- ![weather app landing](/images/weatherlanding.png) 
+ ![weather app landing](/images/weather/landing.png) 
  <br>
  <br>
- ![weather search result](/images/weatherresult.png)
+ ![weather search result](/images/weather/result.png)

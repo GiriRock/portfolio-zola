@@ -3,7 +3,7 @@
 {% block title %}{{ config.title }} - 404{% endblock title %}
 
 {% block navbar %}
-{% for item in config.extra.zola386_menu %}
+{% for item in config.extra.nav_menu %}
 <li>
   <a href="{{ config.base_url }}/{{item.path}}"><span>{{ item.name }}</span></a>
 </li>

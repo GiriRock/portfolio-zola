@@ -22,7 +22,7 @@ blog_url = "https://blog.giridharan.me"
 
 keywords = "Software Developer, Mendix Developer, Fullstack Developer,JavaScript, TypeScript"
 theme_color = "#000084"
-zola386_menu = [
+nav_menu = [
   {path="", name="Home"},
   {path="projects", name="Projects"},
   {path="skills", name="Skills"},

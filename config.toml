@@ -18,20 +18,19 @@ taxonomies = [
 [extra]
 author = "Giridharan Mohan"
 year = "2023"
+blog_url = "https://blog.giridharan.me"
 
 keywords = "Software Developer, Mendix Developer, Fullstack Developer,JavaScript, TypeScript"
 theme_color = "#000084"
 zola386_menu = [
   {path="", name="Home"},
   {path="projects", name="Projects"},
-  {path="categories", name="Categories"},
   {path="skills", name="Skills"},
   {path="about", name="About"},
   {path="files/_resume.pdf", name="Resume"}
 ]
 
 ### SOCIAL MEDIA
-### image = "https://raw.githubusercontent.com/lopes/zola.386/master/screenshot.png"
 twitter_user = "giridharanrock"
 linkedin_user = "giridharanmohan"
 github_user = "girirock"
